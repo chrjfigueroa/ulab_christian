@@ -1,0 +1,26 @@
+1. pwd
+2. ls
+3. "nano patterns.txt" or "vim patterns.txt"
+4. "cat patterns.txt" or "less patterns.txt"
+5. diff patterns.txt symmetry.txt
+6. mv patterns.txt ~/math/geometry
+7. rm triangle.txt ~/math/geometry
+8. cd ../math/
+9. git init
+10. git remote add origin repository-url
+11. cp ~/music/symmetry.txt ~/math/
+12. git status
+13. "git add symmetry.txt" & "git add --all" for all changes.
+14. Git is currently tracking symmetry.txt. To unstage: "git restore --staged symmetry.txt"
+15. git commit -m "hi"
+16. "git push origin main". Should be pushing to main branch because at this point, main branch is the default and only branch.
+17. git branch applied_math
+18. git checkout applied_math
+19. git add --all
+    git commit -m "new"
+    git push origin main
+    If I did not commit, either an error would occur, or all the uncommitted changes are lost & discarded.
+20. "git branch". applied_math should be highlighted in green.
+21. git checkout main
+22. git merge applied_math
+23. (image)
